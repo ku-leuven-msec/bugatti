@@ -10,8 +10,8 @@ X-WR-CALDESC:Events and meetings for the BUGATTI project
 BEGIN:VEVENT
 UID:bugatti-kickoff-2024@ku-leuven-msec.github.io
 DTSTAMP:20240101T120000Z
-DTSTART:20240315T100000Z
-DTEND:20240315T170000Z
+DTSTART:20250315T100000Z
+DTEND:20250315T170000Z
 SUMMARY:BUGATTI Project Kickoff
 DESCRIPTION:Initial project kickoff meeting with all consortium partners
 LOCATION:KU Leuven, Belgium

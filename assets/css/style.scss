@@ -156,6 +156,27 @@ a:not(.site-title):not(.page-link):not(.btn):hover::after {
   width: 100%;
 }
 
+/* Respect user motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  a:not(.site-title):not(.page-link):not(.btn)::after {
+    transition: none;
+  }
+  
+  .benefit-item:hover,
+  .presentation-item:hover,
+  .event-item:hover,
+  .btn:hover,
+  .button:hover {
+    transform: none;
+  }
+}
+
 /* Beautiful buttons */
 .btn, .button {
   display: inline-block;

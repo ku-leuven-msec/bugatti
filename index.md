@@ -45,7 +45,7 @@ Specifically, we establish the following project objectives:
 
 4. **Secure Configuration, Deployment and Management of IoT Applications via Automation**: Making the use of IoT in complex solutions manageable through deployment and security control of Infrastructure-as-Code, and security management through the detection, orchestration and handling of incidents in IoT environments.
 
-5. **Compliance with Regulations and Standards**: Providing companies with the knowledge and resources to achieve compliance with regulations and standards. We will at least test the provided tools and technologies against the RED-DA and CRA regulations, and treat the IEC 62443-4.x standards and harmonized standards prEN 8031.
+5. **Compliance with Regulations and Standards**: Providing companies with the knowledge and resources to achieve compliance with regulations and standards. We will at least test the provided tools and technologies against the RED-DA and CRA regulations, and treat the IEC 62443-4.x standards and harmonized standard prEN 303 645.
 
 6. **Dissemination of Knowledge and Best Practices**: Disseminating knowledge, guidelines and best practices for securing IoT solutions to the broader target audience.
 

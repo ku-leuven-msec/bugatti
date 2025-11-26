@@ -12,7 +12,7 @@ The BUGATTI project brings together leading research institutions to advance emb
 
 ## Research Partners
 
-### KU Leuven - DistriNet, Campus Gent (Project Lead)
+### KU Leuven - DistriNet, Campus Ghent (Project Lead)
 
 <div class="partner-block partner-lead">
   <p><strong>Contact:</strong> Jorn Lapon and Vincent Naessens</p>

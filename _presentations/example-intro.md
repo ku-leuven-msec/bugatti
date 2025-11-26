@@ -4,7 +4,7 @@ title: "Example: Introduction to BUGATTI"
 speaker: "Project Team"
 date: 2025-03-15
 event: "Kickoff Meeting"
-description: "An introductory presentation about the BUGATTI project goals, methodology, and expected outcomes."
+description: "An introductory presentation about the BUGATTI project: embedded security testing and automation for IoT solutions."
 slides: "/bugatti/assets/presentations/example-intro.pdf"
 ---
 

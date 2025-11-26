@@ -62,7 +62,7 @@ You can subscribe to the BUGATTI project calendar to receive automatic updates a
 ## Event Types
 
 - **Consortium Meetings**: Quarterly meetings with all project partners
-- **Technical Workshops**: Hands-on workshops on threat modeling and security practices
+- **Technical Workshops**: Hands-on workshops on IoT security testing and automation
 - **Dissemination Events**: Public seminars and presentations for broader industry engagement
 - **Advisory Board Meetings**: Strategic guidance sessions with industry advisory board members
 
@@ -70,63 +70,7 @@ You can subscribe to the BUGATTI project calendar to receive automatic updates a
 
 ## Contact
 
-For questions about events or to request an invitation, please contact the project coordinator at: **bugatti@cs.kuleuven.be**
+For questions about events or to request an invitation, please contact the project coordinator:
 
-<style>
-.calendar-info {
-  background: #f5f5f5;
-  padding: 1.5em;
-  border-left: 4px solid #2a7ae2;
-  margin: 2em 0;
-}
-
-.subscribe-section {
-  background: #fff;
-  padding: 2em;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  margin: 2em 0;
-}
-
-.calendar-url {
-  display: block;
-  background: #f5f5f5;
-  padding: 12px;
-  border-radius: 4px;
-  font-family: monospace;
-  word-break: break-all;
-  border: 1px solid #ddd;
-}
-
-.calendar-options {
-  margin-top: 1.5em;
-}
-
-.calendar-options h4 {
-  color: #2a7ae2;
-  margin-top: 1em;
-}
-
-.event-list {
-  margin-top: 1em;
-}
-
-.event-item {
-  padding: 1.5em;
-  background: #f9f9f9;
-  border-radius: 8px;
-  margin-bottom: 1em;
-  border-left: 4px solid #2a7ae2;
-}
-
-.event-item h4 {
-  margin-top: 0;
-  color: #333;
-}
-
-.event-meta {
-  color: #666;
-  font-size: 0.9em;
-  margin: 0.5em 0;
-}
-</style>
+**Contact Person:** Jorn Lapon  
+**Email:** <a href="mailto:jorn.lapon@kuleuven.be">jorn.lapon@kuleuven.be</a>

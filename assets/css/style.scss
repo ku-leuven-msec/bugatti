@@ -3,114 +3,396 @@
 
 @import "{{ site.theme }}";
 
-/* Custom styles for BUGATTI website */
+/* Modern, colorful design for BUGATTI website */
 
-/* Header and navigation improvements */
+/* Color variables */
+:root {
+  --primary-purple: #667eea;
+  --primary-pink: #f093fb;
+  --accent-blue: #4facfe;
+  --accent-green: #43e97b;
+  --accent-orange: #fa709a;
+  --dark: #2d3748;
+  --light: #f7fafc;
+}
+
+/* Header and navigation with gradient */
 .site-header {
-  border-top: 5px solid #2a7ae2;
-  border-bottom: 1px solid #e8e8e8;
-  min-height: 56px;
-  background-color: #fdfdfd;
+  border-top: 0;
+  border-bottom: 0;
+  min-height: 70px;
+  background: linear-gradient(135deg, var(--primary-purple) 0%, var(--primary-pink) 100%);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+.site-header::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #f5576c 75%, #4facfe 100%);
 }
 
 .site-title {
-  font-size: 26px;
-  font-weight: 600;
-  line-height: 56px;
-  letter-spacing: -1px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0.5px;
   margin-bottom: 0;
-  color: #2a7ae2 !important;
+  color: white !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
 }
 
-/* Content styling */
+.site-title:hover {
+  color: white !important;
+  text-decoration: none;
+  transform: scale(1.02);
+}
+
+.site-nav {
+  line-height: 70px;
+}
+
+.site-nav .page-link {
+  color: white !important;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  margin-left: 8px;
+}
+
+.site-nav .page-link:hover {
+  background: rgba(255,255,255,0.2);
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+/* Content styling with cards */
 .page-content {
-  padding: 30px 0;
-  flex: 1;
+  padding: 40px 0;
+  background: linear-gradient(180deg, #f7fafc 0%, #e6f2ff 100%);
+  min-height: calc(100vh - 200px);
 }
 
-/* Make headings more prominent */
+.wrapper {
+  background: white;
+  padding: 3em;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+/* Headings with gradients */
 h1 {
-  color: #2a7ae2;
-  border-bottom: 2px solid #e8e8e8;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
+  background: linear-gradient(135deg, var(--primary-purple) 0%, var(--primary-pink) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(90deg, var(--primary-purple), var(--primary-pink)) 1;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+  font-weight: 700;
 }
 
 h2 {
-  color: #333;
-  margin-top: 1.5em;
-  margin-bottom: 0.5em;
+  color: var(--dark);
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-weight: 600;
+  position: relative;
+  padding-left: 20px;
+}
+
+h2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5px;
+  height: 70%;
+  background: linear-gradient(180deg, var(--primary-purple), var(--primary-pink));
+  border-radius: 3px;
 }
 
 h3 {
-  color: #555;
+  color: var(--primary-purple);
+  font-weight: 600;
+  margin-top: 1.5em;
 }
 
-/* Improve link styling */
+/* Links with hover effects */
 a {
-  color: #2a7ae2;
+  color: var(--primary-purple);
   text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
 }
 
 a:hover {
-  color: #1e5bb8;
-  text-decoration: underline;
+  color: var(--primary-pink);
+  text-decoration: none;
 }
 
-/* Button styling */
+a:not(.site-title):not(.page-link):not(.btn)::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background: linear-gradient(90deg, var(--primary-purple), var(--primary-pink));
+  transition: width 0.3s ease;
+}
+
+a:not(.site-title):not(.page-link):not(.btn):hover::after {
+  width: 100%;
+}
+
+/* Beautiful buttons */
 .btn, .button {
   display: inline-block;
-  padding: 10px 20px;
-  background: #2a7ae2;
+  padding: 12px 28px;
+  background: linear-gradient(135deg, var(--primary-purple) 0%, var(--primary-pink) 100%);
   color: white !important;
   text-decoration: none;
-  border-radius: 5px;
-  font-weight: 500;
-  transition: background 0.3s ease;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+  border: none;
+  cursor: pointer;
 }
 
 .btn:hover, .button:hover {
-  background: #1e5bb8;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
   text-decoration: none;
 }
 
-/* Info boxes */
-.info-box {
-  background: #f0f7ff;
-  border-left: 4px solid #2a7ae2;
+/* Info boxes with gradients */
+.info-box, .calendar-info {
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  border-left: 5px solid var(--accent-blue);
   padding: 1.5em;
-  margin: 1.5em 0;
-  border-radius: 4px;
+  margin: 2em 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .warning-box {
-  background: #fff8e6;
-  border-left: 4px solid #ffa500;
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  border-left: 5px solid var(--accent-orange);
   padding: 1.5em;
-  margin: 1.5em 0;
-  border-radius: 4px;
+  margin: 2em 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-/* Lists */
+/* Lists with styled bullets */
 ul {
-  line-height: 1.8;
+  line-height: 2;
 }
 
 li {
-  margin: 0.3em 0;
+  margin: 0.5em 0;
+  position: relative;
+  padding-left: 10px;
 }
 
-/* Footer */
+li::marker {
+  color: var(--primary-purple);
+  font-weight: bold;
+}
+
+/* Footer with gradient */
 .site-footer {
-  border-top: 1px solid #e8e8e8;
-  padding: 30px 0;
-  background-color: #f9f9f9;
+  border-top: 0;
+  padding: 40px 0;
+  background: linear-gradient(135deg, var(--dark) 0%, #4a5568 100%);
+  color: white;
 }
 
-/* Responsive design improvements */
-@media screen and (max-width: 600px) {
+.site-footer a {
+  color: var(--accent-blue);
+}
+
+.site-footer a:hover {
+  color: var(--accent-green);
+}
+
+.footer-heading {
+  color: white;
+}
+
+/* Code blocks with modern styling */
+code {
+  background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 3px 8px;
+  font-size: 0.9em;
+  color: var(--primary-purple);
+  font-weight: 500;
+}
+
+pre {
+  background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+  border: none;
+  border-radius: 12px;
+  padding: 1.5em;
+  overflow-x: auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+pre code {
+  background: transparent;
+  border: none;
+  color: #48bb78;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 2em 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 15px;
+  border: none;
+  text-align: left;
+}
+
+th {
+  background: linear-gradient(135deg, var(--primary-purple) 0%, var(--primary-pink) 100%);
+  color: white;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background: #f7fafc;
+}
+
+tr:hover {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(240, 147, 251, 0.1) 100%);
+}
+
+/* Horizontal rules */
+hr {
+  border: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--primary-purple), var(--primary-pink), var(--accent-blue));
+  margin: 3em 0;
+  border-radius: 2px;
+}
+
+/* Presentation items */
+.presentation-item {
+  background: white;
+  padding: 2em;
+  margin: 2em 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-left: 5px solid var(--primary-purple);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.presentation-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+  border-left-color: var(--primary-pink);
+}
+
+.presentation-item h3 {
+  margin-top: 0;
+  color: var(--primary-purple);
+}
+
+.meta {
+  color: #718096;
+  font-size: 0.9em;
+  line-height: 1.8;
+}
+
+/* Calendar styling */
+.subscribe-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 2.5em;
+  border-radius: 16px;
+  margin: 2em 0;
+  box-shadow: 0 8px 24px rgba(102, 126, 234, 0.3);
+  color: white;
+}
+
+.subscribe-section h4 {
+  color: white;
+  margin-top: 1.5em;
+}
+
+.calendar-url {
+  display: block;
+  background: rgba(255,255,255,0.95);
+  padding: 15px;
+  border-radius: 8px;
+  font-family: 'Courier New', monospace;
+  word-break: break-all;
+  border: 2px solid rgba(255,255,255,0.3);
+  color: var(--dark);
+  font-weight: 500;
+}
+
+.calendar-options ul {
+  margin-left: 1.5em;
+  line-height: 1.8;
+}
+
+.event-item {
+  padding: 2em;
+  background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+  border-radius: 12px;
+  margin-bottom: 1.5em;
+  border-left: 5px solid var(--accent-blue);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.event-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+.event-item h4 {
+  margin-top: 0;
+  color: var(--primary-purple);
+}
+
+.event-meta {
+  color: #4a5568;
+  font-size: 0.9em;
+  margin: 1em 0;
+  line-height: 1.8;
+}
+
+/* Responsive design */
+@media screen and (max-width: 800px) {
+  .wrapper {
+    padding: 2em 1.5em;
+  }
+  
   .site-title {
-    font-size: 20px;
+    font-size: 18px;
   }
   
   .benefits-grid {
@@ -118,44 +400,21 @@ li {
   }
 }
 
-/* Code blocks */
-code {
-  background-color: #f5f5f5;
-  border: 1px solid #ddd;
-  border-radius: 3px;
-  padding: 2px 6px;
-  font-size: 0.9em;
-}
-
-pre {
-  background-color: #f5f5f5;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 1em;
-  overflow-x: auto;
-}
-
-/* Tables */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1.5em 0;
-}
-
-th, td {
-  padding: 10px;
-  border: 1px solid #ddd;
-  text-align: left;
-}
-
-th {
-  background-color: #f5f5f5;
-  font-weight: 600;
-}
-
-/* Horizontal rules */
-hr {
-  border: 0;
-  border-top: 1px solid #e8e8e8;
-  margin: 2em 0;
+@media screen and (max-width: 600px) {
+  .site-header {
+    min-height: auto;
+  }
+  
+  .site-title {
+    line-height: 1.5;
+    padding: 15px 0;
+  }
+  
+  .site-nav {
+    line-height: 1.5;
+  }
+  
+  h1 {
+    font-size: 1.8em;
+  }
 }

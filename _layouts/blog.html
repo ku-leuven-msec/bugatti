@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+
+
+<div class="blog-hero">
+  <div class="blog-hero-content">
+    <h1>{{ page.title }}</h1>
+    <div class="blog-meta">
+      {% if page.date %}
+        <span class="blog-meta-date">{{ page.date | date: "%B %d, %Y" }}</span>
+      {% endif %}
+      {% if page.author %}
+        <span class="blog-meta-author">By {{ page.author }}</span>
+      {% endif %}
+      {% if page.reading_time %}
+        <span class="blog-meta-reading">{{ page.reading_time }}</span>
+      {% endif %}
+    </div>
+  </div>
+  <img class="blog-avatar" src="{{ page.author_ico | default: '/assets/images/kul_distrinet.png' | relative_url }}" alt="Author avatar">
+</div>
+
+<article class="blog-article">
+  <div class="article-content">
+    {{ content }}
+  </div>
+  <div class="blog-back-link">
+    <a href="{{ '/blog/' | relative_url }}">← Back to Blog</a>
+  </div>
+</article>

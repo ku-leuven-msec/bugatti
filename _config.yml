@@ -1,0 +1,43 @@
+title: "BUGATTI - Embedded Security Testing and Automation"
+description: "A Vlaio/COOCK project focused on IoT and embedded security testing and automation"
+baseurl: "/bugatti"
+url: "https://ku-leuven-msec.github.io"
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - index.md
+  - knowledge-dissemination.md
+  - blog.md
+  - consortium.md
+
+# Project information
+project:
+  start_date: "2025"
+  type: "Vlaio/COOCK Tech Transfer Project"
+  lead: "KU Leuven - DistriNet"
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - mcp-server
+
+# Collections
+collections:
+  dissemination:
+    output: true
+    permalink: /knowledge-dissemination/:name/
+  articles:
+    output: true
+    permalink: /knowledge-dissemination/articles/:name/
+  blog:
+    output: true
+    permalink: /blog/:name/

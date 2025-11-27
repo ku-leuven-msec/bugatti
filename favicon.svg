@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1abc9c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d7377;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="url(#grad1)"/>
+
+  <!-- Shield shape -->
+  <path d="M 32 12 L 50 22 L 50 36 C 50 50 32 58 32 58 C 32 58 14 50 14 36 L 14 22 Z" 
+        fill="none" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- Lock circle -->
+  <circle cx="32" cy="28" r="7" fill="none" stroke="white" stroke-width="1.2"/>
+
+  <!-- Lock shackle -->
+  <path d="M 27 28 Q 27 23 32 23 Q 37 23 37 28" 
+        fill="none" stroke="white" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Lock keyhole -->
+  <circle cx="32" cy="30" r="1" fill="white"/>
+  <path d="M 32 31 L 32 34" stroke="white" stroke-width="0.8" stroke-linecap="round"/>
+
+  <!-- Circuit nodes -->
+  <circle cx="25" cy="44" r="1" fill="white"/>
+  <circle cx="32" cy="47" r="1" fill="white"/>
+  <circle cx="39" cy="44" r="1" fill="white"/>
+</svg>

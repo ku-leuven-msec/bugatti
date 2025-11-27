@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "bugatti": {
+      "command": "node",
+      "args": ["/Users/jorn/Library/CloudStorage/OneDrive-Gedeeldebibliotheken-KULeuven/CS - BUGATTI - General/site/mcp-server/server.js"],
+      "env": {}
+    }
+  }
+}

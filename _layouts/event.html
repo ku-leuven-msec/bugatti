@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div style="margin-bottom: 2em;">
+          <a href="{{ '/knowledge-dissemination/' | relative_url }}" style="color: #0078b4; text-decoration: none; font-weight: 600;">← Back to Knowledge Dissemination</a>
+        </div>
+
+        {{ content }}
+
+        <div style="margin-top: 2em;">
+          <a href="{{ '/knowledge-dissemination/' | relative_url }}" style="color: #0078b4; text-decoration: none; font-weight: 600;">← Back to Knowledge Dissemination</a>
+        </div>
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

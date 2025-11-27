@@ -1,0 +1,14 @@
+{
+  "name": "bugatti-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server for BUGATTI Jekyll site with browser rendering analysis",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "pdf-parse": "^1.1.4",
+    "puppeteer": "^22.12.0"
+  }
+}

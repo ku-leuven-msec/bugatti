@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div style="margin-bottom: 2em;">
+  <a href="{{ '/knowledge-dissemination/' | relative_url }}" style="color: #0078b4; text-decoration: none; font-weight: 600;">← Back to Knowledge Dissemination</a>
+</div>
+
+<article>
+  <header style="margin-bottom: 2em; border-bottom: 2px solid #f0f0f0; padding-bottom: 1.5em;">
+    <h1 style="margin-bottom: 0.5em;">{{ page.title }}</h1>
+    <p style="color: #666; font-size: 0.95em; margin: 0;">
+      {% if page.date %}
+        Published on {{ page.date | date: "%B %d, %Y" }}
+      {% endif %}
+      {% if page.author %}
+        <br>by {{ page.author }}
+      {% endif %}
+    </p>
+  </header>
+
+  <div class="article-content" style="line-height: 1.8; font-size: 1.05em;">
+    {{ content }}
+  </div>
+
+  <footer style="margin-top: 3em; border-top: 2px solid #f0f0f0; padding-top: 2em;">
+    <a href="{{ '/knowledge-dissemination/' | relative_url }}" style="color: #0078b4; text-decoration: none; font-weight: 600;">← Back to Knowledge Dissemination</a>
+  </footer>
+</article>

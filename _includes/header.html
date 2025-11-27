@@ -1,0 +1,18 @@
+<header class="site-header">
+  <div class="wrapper">
+    <a class="site-title" href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/images/bugatti-logo.svg' | relative_url }}" alt="BUGATTI Logo" class="logo-icon">
+      <span class="title-text">BUGATTI</span>
+    </a>
+    <nav class="site-nav">
+      {%- for path in site.header_pages -%}
+        {%- assign my_page = site.pages | where: "path", path | first -%}
+        {%- if my_page.title -%}
+        <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+        {%- elsif path == "blog.md" -%}
+        <a class="page-link" href="{{ '/blog/' | relative_url }}">Blog</a>
+        {%- endif -%}
+      {%- endfor -%}
+    </nav>
+  </div>
+</header>

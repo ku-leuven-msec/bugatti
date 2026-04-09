@@ -44,8 +44,8 @@ Our project organizes regular events to share knowledge and engage with the IoT 
   <a href="{{ event.url | relative_url }}" style="color: #0078b4; font-weight: 600;">View event details & presentations →</a>
 </div>
 {% endfor %}
-
---- -->
+<!-- 
+--- 
 
 # Articles & Publications
 
@@ -115,7 +115,7 @@ We use Poll Everywhere to gather feedback from our community. [View latest poll 
 ---
 
 <strong>Want to stay up-to-date?</strong> Send an email to <a href="#" style="color: #1565c0; text-decoration: underline;" onclick="window.location.href='mailto:'+'jorn.lapon'+'@'+'kuleuven.be';return false;">jorn.lapon [at] kuleuven [dot] be</a> to receive updates about future events and project news.
-
+-->
 <style>
 .presentation-item {
   margin: 2em 0;

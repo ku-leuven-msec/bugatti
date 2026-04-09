@@ -11,6 +11,21 @@ permalink: /knowledge-dissemination/
   </div>
 </div>
 
+# Upcoming Events
+
+<div class="event-item" style="margin: 2em 0; padding: 1.5em; background: #e8f4fd; border-radius: 8px; border-left: 4px solid #0096d2;">
+  <h3 style="margin-top: 0;">Public Workshops - May 12th, 2026</h3>
+  <p class="meta" style="color: #666; font-size: 0.9em; margin: 0.5em 0;">
+    May 12, 2026 • Workshops
+  </p>
+  <h4>Preliminary Agenda</h4>
+  <ul>
+    <li><strong>13:00-14:30:</strong> Building and Securing CI/CD Pipelines for Embedded Systems with GitHub Actions (VUB-Soft)</li>
+    <li><strong>14:30-16:00:</strong> When CVE Tools Disagree: Hands-On Yocto Vulnerability Triage (DistriNet Gent)</li>
+  </ul>
+  <p><strong>Interested in attending?</strong> Send an email to <a href="#" style="color: #1565c0; text-decoration: underline;" onclick="window.location.href='mailto:'+'jorn.lapon'+'@'+'kuleuven.be';return false;">jorn.lapon [at] kuleuven [dot] be</a> to register for this event or to receive updates about future events and project news.</p>
+</div>
+
 # Past Events & Workshops
 
 Our project organizes regular events to share knowledge and engage with the IoT security community.
@@ -97,9 +112,7 @@ We use Poll Everywhere to gather feedback from our community. [View latest poll 
 <p><em>No presentations have been published yet. Check back soon for updates from our meetings and events.</em></p>
 {% endif %}
 
---- -->
-
-## Upcoming Events
+---
 
 <strong>Want to stay up-to-date?</strong> Send an email to <a href="#" style="color: #1565c0; text-decoration: underline;" onclick="window.location.href='mailto:'+'jorn.lapon'+'@'+'kuleuven.be';return false;">jorn.lapon [at] kuleuven [dot] be</a> to receive updates about future events and project news.
 

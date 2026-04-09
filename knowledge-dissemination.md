@@ -44,8 +44,8 @@ Our project organizes regular events to share knowledge and engage with the IoT 
   <a href="{{ event.url | relative_url }}" style="color: #0078b4; font-weight: 600;">View event details & presentations →</a>
 </div>
 {% endfor %}
-<!-- 
----
+
+--- -->
 
 # Articles & Publications
 

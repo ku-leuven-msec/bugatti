@@ -3,9 +3,9 @@ layout: default
 title: Home
 ---
 
-<div class="hero-section" style="background: linear-gradient(135deg, rgba(0, 150, 210, 0.85) 0%, rgba(0, 120, 180, 0.85) 100%), url('/bugatti/assets/images/john-adams-1xIN4FMR78A-unsplash.jpg') center/cover; background-attachment: fixed;">
+<div class="hero-section" style="background: linear-gradient(135deg, rgba(0, 150, 210, 0.85) 0%, rgba(0, 120, 180, 0.85) 100%), url('/assets/images/john-adams-1xIN4FMR78A-unsplash.jpg') center/cover; background-attachment: fixed;">
   <div style="max-width: 900px;">
-    <h1><img src="/bugatti/assets/images/bugatti-logo.svg" alt="BUGATTI" style="height: 50px; width: 50px; display: inline-block; vertical-align: middle; margin-right: 10px;"> BUGATTI</h1>
+    <h1><img src="/assets/images/bugatti-logo.svg" alt="BUGATTI" style="height: 50px; width: 50px; display: inline-block; vertical-align: middle; margin-right: 10px;"> BUGATTI</h1>
     <h2 style="color: white; border: none; padding: 0; margin: 0;">Embedded Security Testing and Automation</h2>
     <p>Enhancing the security of IoT and embedded solutions through advanced security testing and automation techniques.</p>
     <p><a href="#about" class="btn" style="margin-top: 20px;">Learn More</a></p>

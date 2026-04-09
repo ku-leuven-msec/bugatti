@@ -1,7 +1,7 @@
 title: "BUGATTI - Embedded Security Testing and Automation"
 description: "A Vlaio/COOCK project focused on IoT and embedded security testing and automation"
-baseurl: "/bugatti"
-url: "https://ku-leuven-msec.github.io"
+baseurl: ""
+url: "https://bugatti.projects.cybersecurity-research.be"
 
 # Build settings
 plugins:

@@ -5,7 +5,7 @@ permalink: /consortium/
 ---
 
 
-<div class="hero-section" style="background: linear-gradient(135deg, rgba(0, 150, 210, 0.85) 0%, rgba(0, 120, 180, 0.85) 100%), url('/bugatti/assets/images/john-adams-1xIN4FMR78A-unsplash.jpg') center/cover; background-attachment: fixed; min-height: 300px;">
+<div class="hero-section" style="background: linear-gradient(135deg, rgba(0, 150, 210, 0.85) 0%, rgba(0, 120, 180, 0.85) 100%), url('/assets/images/john-adams-1xIN4FMR78A-unsplash.jpg') center/cover; background-attachment: fixed; min-height: 300px;">
   <div style="max-width: 900px;">
     <h1>🤝 Project Consortium</h1>
     <p>Meet the research institutions and industry partners driving the BUGATTI project forward.</p>
@@ -23,7 +23,7 @@ permalink: /consortium/
 
 <div class="partner-block partner-lead" style="background: #dbe3ee; border-radius: 10px; padding: 1.5em; margin-bottom: 2em; color: #222;">
   <div style="display: flex; align-items: center; gap: 1.5em; margin-bottom: 1em;">
-    <img src="/bugatti/assets/images/kul_distrinet.png" alt="KU Leuven logo" style="height: 48px; width: auto; background: white; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); padding: 6px; border: 1px solid #d0d0d0;">
+    <img src="/assets/images/kul_distrinet.png" alt="KU Leuven logo" style="height: 48px; width: auto; background: white; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); padding: 6px; border: 1px solid #d0d0d0;">
     <div>
       <h4 style="margin: 0; color: #222;">KU Leuven, DistriNet Campus Ghent</h4>
 
@@ -49,7 +49,7 @@ permalink: /consortium/
 
 <div class="partner-block partner-vub" style="background: #dbe3ee; border-radius: 10px; padding: 1.5em; margin-bottom: 2em; color: #222;">
   <div style="display: flex; align-items: center; gap: 1.5em; margin-bottom: 1em;">
-    <img src="/bugatti/assets/images/vub_soft.png" alt="VUB logo" style="height: 48px; width: auto; background: white; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); padding: 6px; border: 1px solid #d0d0d0;">
+    <img src="/assets/images/vub_soft.png" alt="VUB logo" style="height: 48px; width: auto; background: white; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); padding: 6px; border: 1px solid #d0d0d0;">
     <div>
       <h4 style="margin: 0; color: #222;">VUB - SOFT Lab</h4>
     </div>

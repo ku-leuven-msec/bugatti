@@ -9,7 +9,7 @@ author_ico: "/assets/images/x098au987.jpg"
 ---
 
 
-<img src="/bugatti/assets/images/se-tsuchiya-sPLLVFJXlb8-unsplash.jpg" alt="Embedded Security" style="width:100%; max-width:600px; display:block; margin: 2em auto 2em auto; border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.10);">
+<img src="/assets/images/se-tsuchiya-sPLLVFJXlb8-unsplash.jpg" alt="Embedded Security" style="width:100%; max-width:600px; display:block; margin: 2em auto 2em auto; border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.10);">
 
 
 

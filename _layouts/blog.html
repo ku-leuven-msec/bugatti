@@ -19,7 +19,9 @@ layout: default
       {% endif %}
     </div>
   </div>
-  <img class="blog-avatar" src="{{ page.author_ico | default: '/assets/images/kul_distrinet.png' | relative_url }}" alt="Author avatar">
+  {% if page.author_ico %}
+    <img class="blog-avatar" src="{{ page.author_ico | relative_url }}" alt="Author avatar">
+  {% endif %}
 </div>
 
 <article class="blog-article">

@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Onweer: Leveraging Fuzzing for Automated Chaos In Testing"
-author: G. Coremans
+author: G. Coremans (VUB-Soft)
 date: 2026-04-20
 reading_time: "9 min read"
 excerpt: "Onweer combines REST API fuzzing with fault injection to automatically discover resilience bugs that conventional testing misses."

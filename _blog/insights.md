@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "The False Positive Flood: Six Insights for CVE Triage in Embedded Systems"
-author: J. Lapon
+author: J. Lapon (KU Leuven DistriNet)
 date: 2025-11-27
 reading_time: "8 min read"
 excerpt: "Understanding why vulnerability scanners produce overwhelming false positive alerts and how to effectively triage CVE results in embedded systems."
